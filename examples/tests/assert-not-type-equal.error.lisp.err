@@ -1,0 +1,4 @@
+[assert-not-type-equal] fail:
+  lhs: nothing-t
+  rhs: nothing-t
+
