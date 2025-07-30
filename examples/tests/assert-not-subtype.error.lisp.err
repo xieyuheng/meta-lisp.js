@@ -1,3 +1,0 @@
-[assert-not-subtype] fail:
-  lhs: nothing-t
-  rhs: anything-t
