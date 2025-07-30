@@ -1,6 +1,6 @@
-# lattice-lisp.js
+# meta-lisp.js
 
-A lisp with structural type system.
+A lisp as meta language to implement other languages.
 
 ## Usages
 
@@ -9,10 +9,10 @@ A lisp with structural type system.
 Install it by the following command:
 
 ```sh
-npm install -g @xieyuheng/lattice-lisp.js
+npm install -g @xieyuheng/meta-lisp.js
 ```
 
-The command-line program is called `lattice-lisp.js`.
+The command-line program is called `meta-lisp.js`.
 
 ## Development
 

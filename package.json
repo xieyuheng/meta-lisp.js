@@ -1,7 +1,7 @@
 {
-  "name": "@xieyuheng/lattice-lisp.js",
+  "name": "@xieyuheng/meta-lisp.js",
   "version": "0.0.1",
-  "repository": "github:xieyuheng/lattice-lisp.js",
+  "repository": "github:xieyuheng/meta-lisp.js",
   "license": "GPL-3.0-or-later",
   "type": "module",
   "main": "./lib/index.js",
@@ -11,7 +11,7 @@
     "examples"
   ],
   "bin": {
-    "lattice-lisp.js": "lib/main.js"
+    "meta-lisp.js": "lib/main.js"
   },
   "scripts": {
     "build": "tsc",
