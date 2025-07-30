@@ -1,6 +1,6 @@
 # meta-lisp.js
 
-A lisp as meta language to implement other languages.
+A lisp as a meta language to implement other languages.
 
 ## Usages
 
