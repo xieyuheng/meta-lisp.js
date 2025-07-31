@@ -53,5 +53,5 @@ const typeMatcher: X.Matcher<Type> = X.matcherChoice<Type>([
     )
   }),
 
-  X.matcher("name", ({ name }) => Types.TypeVar(X.dataToString(name))),
+  X.matcher("name", ({ name }) => Types.TypeVar(X.symbolToString(name))),
 ])
