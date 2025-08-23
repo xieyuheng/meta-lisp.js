@@ -38,10 +38,11 @@ const typeMatcher: X.Matcher<Type> = X.matcherChoice<Type>([
     ),
   ),
 
-  X.matcher("(cons 'tau* types)", ({ types }, { data, span }) => {
+  X.matcher("(cons 'tau* types)", ({ types }, { data, meta }) => {
     const allTypes = X.dataToArray(types).map(matchType)
     if (allTypes.length === 0) {
-      throw new X.ParsingError(`tau* body should not be empty`, span)
+      let message = `tau* body should not be empty\n`
+      throw new X.ParsingError(message, meta)
     }
 
     const prefixTypes = allTypes.slice(0, allTypes.length - 1)
